@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import ViewButton from "@/components/ViewButton";
+import Button from "@/components/Button";
 
 const About = () => {
   return (
@@ -53,7 +53,7 @@ const About = () => {
             <br />
             <br /> - Mobile Apps
           </p>
-          <ViewButton url="/contact" text="Contact" />
+          <Button url="/contact" text="Contact" />
         </div>
       </div>
     </div>
